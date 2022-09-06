@@ -6,7 +6,7 @@
 <br>
 만약 아래와 같이 여러가지 Controller가 존재한다고 가정합니다.
 
-<img src="./images/A-aop-1.png" width="70%"/>
+<img src="./images/A-aop-1.png" width="70%"/>
 
 그러나 Controller로 들어오는 요청마다 DB에 커스텀 로그를 남겨야한다고 가정합시다.  
 
@@ -38,7 +38,7 @@ public class MemberController {
 
 여기서 핵심적인 관점은 API가, DB에 커스텀 로그를 남기는 것이 부가적인 관점이라고 판단한다면 다음 그림처럼 AOP 적용 모습이 그려질 것입니다.
 
-<img src="./images/A-aop-2.png" width="70%"/>
+<img src="./images/A-aop-2.png" width="70%"/>
 
 <br>
 
